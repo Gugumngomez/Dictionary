@@ -4,10 +4,8 @@
 <head>
   <meta charset="utf-8" />
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
   <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -28,33 +26,17 @@
 </head>
 
 <body>
+    <audio id="sound"></audio>
     <div class="container">
       <div class="search-box">
         <input type="text" placeholder="Search word..." id="inp-word" />
         <button id="search-btn">Search</button>
       </div>
-      <div class="result">
-        <div class="word">
-          <h3>Sample</h3>
-          <button>
-            <i class="fa fa-volume-up" aria-hidden="true"></i>
-          </button>
-        </div>
-        <div class="details">
-          <p>pos</p>
-          <p>/sample/</p>
-        </div>
-        <p class="word-meaning">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-        </p>
-        <p class="word-example">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-          eiusmod tempor incididunt ut labore et dolore magna aliqua
-        </p>
+      <div class="result" id="result">
+        
       </div>
     </div>
-  <script type="text/babel" src="App.js"></script>
+  <script src="script.js"></script>
 </body>
 
-</html>
+</html>  

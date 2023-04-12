@@ -1,0 +1,84 @@
+.App {
+    padding: 20px;
+    width: auto;
+}
+
+
+
+input {
+    border-bottom: 3px solid rgb(219, 210, 229);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    width: 40%;
+    font-size: 25px;
+}
+
+.btn {
+    background-color: rgb(219, 210, 229);
+    font-size: 25px;
+    border-radius: 30px;
+    border: none;
+    width: auto;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.flex {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+h3, h2 {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(35, 8, 63);
+    padding-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.words {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
+p {
+    padding: 0 20px 10px;
+    font-size: 20px;
+}
+
+
+
+.card {
+    background-image: -webkit-linear-gradient( #ae95e1, #7f345e);
+    width: auto;
+    
+}
+
+.audio {
+    cursor: pointer;
+    border-radius: 100px;
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    border-top: 10px;
+    border-bottom: 10px;
+  }
+  
+  .audio:hover {
+    background-color: #c29bc3;
+    color: white;
+    border: none;
+  }
+
+  
+  

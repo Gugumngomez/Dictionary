@@ -80,5 +80,20 @@ p {
     border: none;
   }
 
-  
+@media screen and (max-width:380px) {
+    .input{
+        font-size: 10px;
+    }
+    .btn{
+        font-size: larger;
+    }
+
+    .words {
+        font-size: 10px;
+    }
+
+    .card {
+        height: auto;
+    }
+}
   
